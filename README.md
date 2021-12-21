@@ -3,6 +3,7 @@
 ## before add gradient_merge
 
 batch_size 128
+
 steps 12
 
 sh run.sh
@@ -181,6 +182,7 @@ sh run.sh
 
 ## after add gradient_merge
 batch_size 32
+
 steps 48
 
 sh run_grad.sh
