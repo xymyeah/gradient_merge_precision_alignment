@@ -889,3 +889,5 @@ else:
     
 # 结论
 添加gradient_merge后的avgloss和添加之前的loss精度是对齐的
+
+注：多卡时，需要将每个卡的loss相加后对齐精度
