@@ -878,14 +878,14 @@ avgloss -------->[0.2862789]
 loss的精度对齐，需要按k_steps对其求平均
 
 例如：
-
+```
 if step % 4 == 3:
     avg_loss += res[0]
     print(f"avgloss -------->{avg_loss/4}")
     avg_loss = 0
 else:
     avg_loss += res[0]
-    
+```    
     
 # 结论
 添加gradient_merge后的avgloss和添加之前的loss精度是对齐的
